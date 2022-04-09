@@ -91,4 +91,98 @@ span {
     background-color: white;
     margin: 1.5rem auto;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+
+.hero-container__input svg {
+    padding-left: 1.5rem;
+    vertical-align: center;
+}
+
+.hero-container__input input {
+    border: none;
+    outline: none;
+    flex: 0.8;
+    padding-left: 1.25rem;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 50px;
+}
+
+/* Recommendation section */
+
+.recommendation-container {
+    height: 29.4rem;
+    text-align: center;
+}
+
+.recommendation-container h3 {
+    margin: 0;
+    color: #16172D;
+    padding-top: 1.25rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
+}
+
+.recommendation-container > p {
+    padding-top: 0.25rem;
+    margin: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #16172D;
+}
+
+.recommendation-cards {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4.25rem;
+}
+
+.recommendation-card {
+    padding: 19px 39px 51px 14px;
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.recommendation-card div {
+    display: flex;
+    align-items: center;
+}
+
+.recommendation-card h5 {
+    display: inline;
+    margin: 0;  
+    padding-left: 1rem;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 20px;
+    color: #676666;
+    line-height: 30px;
+}
+
+.recommendation-card p {
+    margin: 0;
+    padding: 5px 0 0 66px;
+    width: 18rem;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+/* Contact Section */
+
