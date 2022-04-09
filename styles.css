@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*  */
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    background-color: #010216;
+    color: white;
+    height: 92px;
+    align-items: center;
+}
+
+.main-header__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 6.5rem;
+}
+
+.main-header__logo h4 {
+    margin-left: 4px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.main-header__links {
+    margin-left: -8rem;
+}
+
+.main-header__accounts {
+    margin-right: 6.4rem;
+}
+
+.main-header__links a,
+.main-header__accounts a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+    margin-right: 2rem;
+}
+
+.main-header__accounts a:last-of-type {
+    padding: 6px 23px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.main-header__accounts a:last-of-type:hover {
+    background-color: #F2C94C;
+    color: white;
+}
+
+/* Hero section */
+
+.hero-container {
+    height: 21.75rem;
+    text-align: center;
+    background-color:#16172D;
+    color: white;
+}
+
+.hero-container h3 {
+    margin: 0;
+    padding-top: 5.75rem;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.hero-container__input {
+    height: 3.25rem;
+    width: 70%;
+    background-color: white;
+    margin: 1.5rem auto;
+    border-radius: 5px;
+}
