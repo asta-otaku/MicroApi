@@ -15,6 +15,8 @@ body {
     color: white;
     height: 92px;
     align-items: center;
+    /* position: fixed;
+    width: 100%; */
 }
 
 .main-header__logo {
@@ -186,3 +188,71 @@ span {
 
 /* Contact Section */
 
+.contacts {
+    position: relative;
+}
+
+form {
+    padding: 5.1rem 2.8rem 2.8rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 39rem;
+    margin: 0 auto;
+    transform: translateY(-2rem);
+    background-color: #FFFF;
+}
+
+form label {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #191919;
+    padding: 0.5rem 0;
+}
+
+.short-input {
+    width: 39rem;
+    height: 3.75rem;
+    border: 1px solid #191919;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.long-input {
+    width: 39rem;
+    height: 12.5rem;
+    border: 1px solid #191919;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.dashed-input {
+    border: 1px dashed #191919;
+    margin-bottom: 3.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #676666;
+}
+
+form button {
+    color: white;
+    width: 173px;
+    height: 60px;
+    background: #449342;
+    opacity: 0.8;
+    box-shadow: 0px 0px 10px rgba(68, 147, 66, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer section */
+
+.footer-container
