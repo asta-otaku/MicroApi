@@ -267,8 +267,7 @@ form button {
 
 .footer-container {
     display: flex;
-    padding: 3.4rem 6.25rem 0.25rem 6.6rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer-items {
@@ -308,11 +307,175 @@ form button {
     color: rgba(1, 2, 22, 0.8);
 }
 
-@media (max-width: 76.8rem) {
+@media (max-width: 77.5rem) {
     .main-header__logo {
-        margin-left: 2.5rem;
+        margin-left: 2rem;
     }
     .main-header__links {
         margin-left: -6rem;
+    }
+    .recommendation-container {
+        height: 36rem;
+    }
+    .recommendation-card {
+        margin-bottom: 1rem;
+    }
+    .footer-items ul {
+        margin-right: 1rem;
+    }
+}
+
+
+@media (max-width: 62.5rem) {
+    .main-header__logo {
+        margin-left: 1rem;
+    }
+    .main-header__links {
+        margin-left: 2rem;
+    }
+    .recommendation-container {
+        height: 36rem;
+    }
+    .recommendation-card {
+        margin-bottom: 1rem;
+    }
+    .footer-items ul {
+        margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 54.5rem) {
+    .main-header__logo svg {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .main-header__logo h4 {
+        margin-left: 2px;
+        font-size: 14px;
+    }
+    .main-header__logo {
+        margin-left: 0.5rem;
+    }
+    .main-header__links {
+        margin-left: 0;
+    }
+    .main-header__links a,
+    .main-header__accounts a {
+        font-size: 12px;
+        margin-right: 0.5rem;
+    }
+    .main-header__accounts a:last-of-type {
+        padding: 3px 14px;
+        border-radius: 5px;
+    }
+    .container h3 {
+        font-size: 18px;
+    }
+    .hero-container {
+        height: 18rem;
+    }
+    .hero-container h3 {
+        padding-top: 2.5rem;
+    }
+    .hero-container__input {
+        height: 2.5rem;
+    }
+    .hero-container__input svg {
+        width: 16px;
+        height: 16px;
+        padding-left: 1rem;
+    }
+    .hero-container__input input {
+        padding-left: 0.5rem;
+        font-size: 17px;
+        height: 2rem;
+    }
+    .hero-container__input input::placeholder {
+        font-size: 12px;
+    }
+    /* Recommendation section */
+    
+    .recommendation-container {
+        height: 42rem;
+    }
+    
+    .recommendation-container h3 {
+        padding-top: 0.5rem;
+    }
+    
+    .recommendation-container > p {
+        padding-top: 0;
+        margin: 0;
+        font-size: 12px;
+    }
+    
+    .recommendation-cards {
+        padding-top: 2rem;
+    }
+    
+    .recommendation-card {
+        padding: 14px 30px 45px 8px;
+    }
+    
+    .recommendation-card h5 {
+        font-size: 14px;
+    }
+    
+    .recommendation-card p {
+        width: 16rem;
+        font-size: 16px;
+    }
+    form {
+        padding: 1.2rem 1.4rem 1.4rem 1.2rem;
+        width: 28rem;
+    }
+    
+    form label {
+        font-size: 14px;
+    }
+    
+    .short-input {
+        width: 28rem;
+        height: 2.5rem;
+    }
+    
+    .long-input {
+        width: 28rem;
+        height: 6.75rem;
+    }
+    
+    .dashed-input {
+        margin-bottom: 1.8rem;
+        font-size: 14px;
+    }
+    
+    form button {
+        width: 120px;
+        height: 40px;
+    }
+    
+    /* Footer section */
+    
+    .footer-container {
+        justify-content: space-evenly;
+    }
+    .footer-items ul {
+        margin-right: 0;
+    }
+    
+    .footer-items li:first-of-type {
+        padding-bottom: 0.5rem;
+        font-size: 14px;
+        }
+    
+    .footer-items a {
+        font-size: 12px;
+    }
+    
+    .copyright {
+        margin-top: 0.5rem;
+        font-size: 12px;
+        line-height: 24px;
     }
 }
