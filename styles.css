@@ -250,9 +250,19 @@ form label {
     font-size: 20px;
     line-height: 24px;
     color: #676666;
+    
+}
+
+/* #drop-area.highlight { 
+    border-color: #F2C94C;
+} */
+
+#fileEl {
+    display: none;
 }
 
 form button {
+    margin-top: 1rem;
     color: white;
     width: 173px;
     height: 60px;
@@ -436,12 +446,12 @@ form button {
     }
     
     .short-input {
-        width: 28rem;
+        width: 80%;
         height: 2.5rem;
     }
     
     .long-input {
-        width: 28rem;
+        width: 80%;
         height: 6.75rem;
     }
     
@@ -458,7 +468,7 @@ form button {
     /* Footer section */
     
     .footer-container {
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
     .footer-items ul {
         margin-right: 0;
@@ -470,7 +480,7 @@ form button {
         }
     
     .footer-items a {
-        font-size: 12px;
+        font-size: 8px;
     }
     
     .copyright {

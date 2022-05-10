@@ -17,8 +17,8 @@
                 <h4>micro<span>Api</span></h4>                  
             </div>
             <div class="main-header__links">
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
+                <a href="#contact-us">About Us</a>
+                <a href="#contact-us">Contact Us</a>
                 <a href="#">Support</a>
                 <a href="#">Documentation</a>
             </div>
@@ -112,7 +112,8 @@
                 <label for="Message">Your message</label>
                 <input type="text" name="Message" class="long-input">
                 <label for="file">Add files (optional)</label>
-                <div class="long-input dashed-input">Drag and drop a file to attach it</div>
+                <div class="long-input dashed-input" id="drop-area">Drag and drop a file to attach it</div>
+                <!-- <input type="file" name="file" id="fileEl" multiple accept="image/*" onchange="handleFiles(this.files)"> -->
                 <button>Submit</button>
             </form>    
         </section>
@@ -155,5 +156,6 @@
         <div class="copyright">All rights reserved &copy;MicroApi</div>
     </footer>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
