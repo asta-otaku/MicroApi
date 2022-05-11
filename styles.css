@@ -253,13 +253,11 @@ form label {
     
 }
 
-/* #drop-area.highlight { 
+.highlight { 
     border-color: #F2C94C;
-} */
-
-#fileEl {
-    display: none;
 }
+
+
 
 form button {
     margin-top: 1rem;
